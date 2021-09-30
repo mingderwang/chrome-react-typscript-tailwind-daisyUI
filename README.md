@@ -1,3 +1,27 @@
+# dev for web app
+```
+yarn && yarn start
+```
+browse on http://localhost:3000/
+
+# build for chrome extension
+```
+yarn && yarn build
+```
+add this chrome extension to your Brave or Chrome browser
+
+# change ui
+refer to https://daisyui.com/
+* try to add change themes, refer to https://github.com/saadeghi/theme-change
+
+
+# demos
+## chrome extension demo
+![image](images/chrome_ext.png)
+
+## web app demo
+![image](images/web_app.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

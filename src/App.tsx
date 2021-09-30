@@ -6,11 +6,11 @@ function App() {
     <div>
       <div className="bg-white mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden">
         <div className="sm:flex sm:items-center px-6 py-4">
-          <img
-            className="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0"
-            src="https://c.gitcoin.co/avatars/6c1066b29c0473595ace03078ab78920/mingderwang.png"
-            alt=""
-          ></img>
+          <div className="avatar">
+            <div className="mb-8 rounded-full w-24 h-24">
+              <img src="http://daisyui.com/tailwind-css-component-profile-1@94w.png" />
+            </div>
+          </div>
           <div className="text-center sm:text-left sm:flex-grow">
             <div className="mb-4">
               <p className="text-xl leading-tight">Ming-der Wang</p>
@@ -19,9 +19,7 @@ function App() {
               </p>
             </div>
             <div>
-              <button className="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">
-                Connect
-              </button>
+              <button className="btn btn-primary">Connect</button>
             </div>
           </div>
         </div>
